@@ -14,14 +14,44 @@ The data that is required for this setup is the Global Marine weather data from 
 - oscar.json (ocean current information)
 
 # Dependencies
-
+Following Python packages are required for this suite of the programs to run:
+```
+pip==10.0.1
+numpy==1.15.4
+pandas==0.23.0
+matplotlib==3.0.3
+jsonschema==2.6.0
+basemap==1.2.0
+basemap-data-hires==1.2.0
+boto==2.48.0
+botocore==1.12.169
+boto3==1.9.146
+awscli==1.16.179
+geographiclib==1.49
+tensorflow==1.13.1
+tensorflow-estimator==1.13.0
+tensorflow-serving-api==1.13.0
+Keras==2.2.4
+gym==0.12.5
+ffmpeg==4.0
+```
 # Installation
 ```
 pip install -e gym_shipping
  
 ```
 # Execution
+Execute file ```runp.sh```:
 
+```
+.
+├── index.md
+├── map_animate.ipynb
+├── nav2.mp4
+├── requirements.txt
+├── runp.sh
+
+```
 # Results
 
 # Relevant Files here
@@ -29,7 +59,6 @@ pip install -e gym_shipping
 The contents here include:
 ```
 .
-├── eval_simple.py
 ├── gym-shipping
 │   ├── README.md
 │   ├── __init__.py
@@ -48,17 +77,23 @@ The contents here include:
 │   │   ├── requires.txt
 │   │   └── top_level.txt
 │   └── setup.py
-├── index.md
-├── map_animate.ipynb
+
+```
+## Nautlabs library
+```
+.
 ├── nautlabs
 │   ├── __init__.py
 │   ├── shipperf.py
 │   └── tests
 │       └── test_shipperf.py
-├── nav2.mp4
-├── requirements.txt
-├── runp.sh
-└── simple_pg.py
 
 ```
 
+## Deep RL Agent
+```
+.
+├── eval_simple.py
+└── simple_pg.py
+
+```
