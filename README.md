@@ -11,7 +11,6 @@ pip install -e gym_shipping
 
 ```
 .
-├── README.md
 ├── eval_simple.py
 ├── gym-shipping
 │   ├── README.md
