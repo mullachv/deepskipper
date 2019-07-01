@@ -5,7 +5,7 @@ In order to facilitate this experimentation, we created an OpenAI Gym environmen
 
 
 # Model
-![alt Deep Reinforcement Learning with Policy Gradient](https://github.com/mullachv/deepskipper/blob/master/rl-agent-model.png "Deep RL with Policy Gradient")
+![alt Deep Reinforcement Learning with Policy Gradient](https://github.com/mullachv/deepskipper/blob/master/DeepRL.png "Deep RL with Policy Gradient")
 
 # Data
 The data that is required for this setup is the Global Marine weather data from [National Centers for Environmental Information](https://www.ncdc.noaa.gov/cdo-web/datasets):
