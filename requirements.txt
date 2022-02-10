@@ -10,7 +10,7 @@ botocore==1.12.169
 boto3==1.9.146
 awscli==1.16.179
 geographiclib==1.49
-tensorflow==1.13.1
+tensorflow==2.5.3
 tensorflow-estimator==1.13.0
 tensorflow-serving-api==1.13.0
 Keras==2.2.4
