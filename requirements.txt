@@ -1,5 +1,5 @@
 pip==10.0.1
-numpy==1.15.4
+numpy==1.22.0
 pandas==0.23.0
 matplotlib==3.0.3
 jsonschema==2.6.0
